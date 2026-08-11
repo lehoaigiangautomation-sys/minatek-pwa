@@ -1,0 +1,41 @@
+{
+  "name": "MINATEK - Smart Control IoT PWA",
+  "short_name": "Minatek",
+  "description": "Ứng dụng Giám sát và Điều khiển thiết bị thông minh MINATEK",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1320",
+  "theme_color": "#0284c7",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Trang chủ",
+      "short_name": "Home",
+      "description": "Bảng điều khiển thiết bị Minatek",
+      "url": "/",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tài khoản",
+      "short_name": "Profile",
+      "description": "Thông tin tài khoản",
+      "url": "/user",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
